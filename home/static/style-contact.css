@@ -27,37 +27,35 @@
     --font-size-xxl2: 32px;
     --font-size-xxl: 48px;
 
-    --font-family-gilmer_bold-regular: "Gilmer Bold-Regular";
-    --font-family-gilmer_medium-regular: "Gilmer Medium-Regular";
-    --font-family-gilmer_regular-regular: "Gilmer Regular-Regular";
-    --font-family-gilmer_light-regular: "Gilmer Light-Regular";
+    --font-family-gilmer: "Questrial", sans-serif;
+
 }
 
 /* Gilmer Fonts*/
 .gilmerbold-regular-nomal-silver-32px {
     color: var(--silver);
-    font-family: var(--font-family-gilmer_bold-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-xxl2);
     font-weight: 400;
     font-style: normal;
 }
 .gilmerbold-regular-nomal-downriver-48px {
     color: var(--downriver);
-    font-family: var(--font-family-gilmer_bold-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-xxl);
     font-weight: 400;
     font-style: normal;
 }
 .gilmerlight-regular-nomal-downriver-32px {
     color: var(--downriver);
-    font-family: var(--font-family-gilmer_light-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-xxl2);
     font-weight: 400;
     font-style: normal;
 }
 .gilmerregular-regular-nomal-midnight-32px {
     color: var(--midnight);
-    font-family: var(--font-family-gilmer_regular-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-xxl2);
     font-weight: 400;
     font-style: normal;
@@ -65,7 +63,7 @@
 
 .gilmerbold-regular-nomal-midnight-24px {
     color: var(--midnight);
-    font-family: var(--font-family-gilmer_bold-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-l);
     font-weight: 400;
     font-style: normal;
@@ -73,14 +71,14 @@
 
 .gilmerregular-regular-nomal-silver-14px {
     color: var(--silver);
-    font-family: var(--font-family-gilmer_regular-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-m2);
     font-weight: 400;
     font-style: normal;
 }
 .gilmerregular-regular-nomal-midnight-14px {
     color: var(--midnight);
-    font-family: var(--font-family-gilmer_regular-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-m2);
     font-weight: 400;
     font-style: normal;
@@ -88,7 +86,7 @@
 
 .gilmerregular-regular-nomal-midnight-20px {
     color: var(--midnight);
-    font-family: var(--font-family-gilmer_regular-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-xl2);
     font-weight: 400;
     font-style: normal;
@@ -96,14 +94,14 @@
 
 .gilmerregular-regular-nomal-midnight-16px {
     color: var(--midnight);
-    font-family: var(--font-family-gilmer_regular-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-l2);
     font-weight: 400;
     font-style: normal;
 }
 .gilmerregular-regular-nomal-white-16px {
     color: var(--white);
-    font-family: var(--font-family-gilmer_regular-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-l2);
     font-weight: 400;
     font-style: normal;
@@ -142,35 +140,6 @@
    border-bottom: 2px solid var(--midnight);
    
 }
-
-
-@font-face {
-    font-family: "Gilmer Light-Regular";
-    src: url(./Gilmer-Font/Gilmer\ Light.otf);
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Gilmer Regular-Regular";
-    src: url(./Gilmer-Font/Gilmer\ Regular.otf);
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Gilmer Medium-Regular";
-    src: url(./Gilmer-Font/Gilmer\ Medium.otf);
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Gilmer Bold-Regular";
-    src: url(./Gilmer-Font/Gilmer\ Bold.otf);
-    font-weight: 400;
-    font-style: normal;
-}
-
 
 
 
@@ -289,7 +258,7 @@ input:focus{
     color: var(--white);
     background-color: var(--midnight);
     cursor: pointer;
-    font-family: var(--font-family-gilmer_regular-regular);
+    font-family: var(--font-family-gilmer);
     font-size: var(--font-size-xl2);
     font-weight: 400;
     letter-spacing: 0;
