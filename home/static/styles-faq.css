@@ -7,7 +7,7 @@
 .main-body{
     display: flex;
     flex-direction: column;
-    font-family: Gilmer;
+    font-family: "Questrial", sans-serif;
 }
 
 nav {
@@ -55,7 +55,6 @@ nav ul li a{
         height: 2.9rem;
         border: none;
         color: white;
-        font-family:Gilmer;
         font-size: 1rem;
     }
 h2 {
@@ -124,7 +123,6 @@ h3{
     height: 5.75rem;
     border: none;
     color: white;
-    font-family: Gilmer;
     font-size: 1.5rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3), 0px 8px 12px 6px rgba(0, 0, 0, 0.15);
 }
@@ -136,7 +134,6 @@ h3{
 .footer {
     display: flex;
     flex-direction: row;
-    font-family: Glimer;
     background-color: #EBFDFC;
     justify-content: space-around;
     align-items: center;
@@ -148,7 +145,6 @@ h3{
         margin-top: 5rem;
 }
 .two {
-    font-family: 'Gilmer Medium';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;

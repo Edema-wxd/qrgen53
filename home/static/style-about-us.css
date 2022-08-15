@@ -1,27 +1,4 @@
 /* import Glimer font from local file*/
-@font-face {
-    font-family: "Glimer";
-    src: url("font/Gilmer-Font/Gilmer-Regular.otf") format("opentype");
-    font-weight: normal;
-  }
-
-  @font-face {
-    font-family: "Glimer";
-    src: url("font/Gilmer-Font/Gilmer-Bold.otf") format("opentype");
-    font-weight: bold;
-  }
-
-  @font-face {
-    font-family: "Glimer";
-    src: url("font/Gilmer-Font/Gilmer-Light.otf") format("opentype");
-    font-weight: lighter;
-  }
-
-  @font-face {
-    font-family: "Glimer";
-    src: url("font/Gilmer-Font/Gilmer-Medium.otf") format("opentype");
-    font-weight: lighter;
-  }
 
   :root {
     --primary-color: #061232;
@@ -37,6 +14,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: "Questrial", sans-serif;
   }
   body{
     box-sizing: border-box;
@@ -54,13 +32,11 @@
     width: 102px;
   height: 48px;
 
-    font-family: 'Glimer';
     position: relative;
     margin-left: 128px;
     margin-top: 45px;
   }
   header a{
-   font-family: 'Glimer';
     text-decoration: none;
     color: #061232;
   }
@@ -141,7 +117,6 @@
     margin-top: 200px;
 
     margin-left: 70px;
-    font-family: 'Glimer';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -298,7 +273,6 @@ flex-grow: 0;
       text-align: center;
       justify-content: center;
       margin-bottom: 20px;
-      font-family: 'Glimer';
       font-size: 20px;
       font-weight: 400;
       background:#F3FEFD ;
