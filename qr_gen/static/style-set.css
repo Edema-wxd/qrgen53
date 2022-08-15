@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 /* Style Guide*/
 :root {
     
@@ -27,11 +29,10 @@
     --font-size-xxl2: 32px;
     --font-size-xxl: 48px;
 
-    --font-family-gilmer_bold-regular: "Gilmer Bold-Regular";
-    --font-family-gilmer_medium-regular: "Gilmer Medium-Regular";
-    --font-family-gilmer_regular-regular: "Gilmer Regular-Regular";
-    --font-family-gilmer_light-regular: "Gilmer Light-Regular";
-}
+    --font-family-gilmer_bold-regular: 'Questrial', sans-serif;
+    --font-family-gilmer_medium-regular: 'Questrial', sans-serif;
+    --font-family-gilmer_regular-regular: 'Questrial', sans-serif;
+    --font-family-gilmer_light-regular: 'Questrial', sans-serif
 
 /* Gilmer Fonts*/
 .gilmerbold-regular-nomal-silver-32px {

@@ -1,32 +1,6 @@
-/* import Glimer font from local file*/
-@font-face {
-    font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Bold.otf") format("opentype");
-    font-weight: bold;
-}
 
-@font-face {
-    font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Heavy.otf") format("opentype");
-    font-weight: bolder;
-}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
-@font-face {
-    font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Regular.otf") format("opentype");
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Light.otf") format("opentype");
-    font-weight: light;
-}
-
-@font-face {
-    font-family: "Glimer";
-    src: url("font/Gilmer-Font/Gilmer-Medium.otf") format("opentype");
-}
 :root {
     --primary-color: #061232;
     --text-color: #061232;
@@ -48,7 +22,7 @@ html {
 /* for mobile */
 
 .qr-create-main {
-    font-family: 'Glimer', sans-serif;
+    font-family: 'Questrial', sans-serif;
 }
 
 .side-bar {

@@ -1,28 +1,11 @@
-/* import Glimer font from local file*/
-@font-face {
-    font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Regular.otf") format("opentype");
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Bold.otf") format("opentype");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Light.otf") format("opentype");
-    font-weight: lighter;
-}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Gilmer';
+    font-family: 'Questrial', sans-serif;
     font-size: 16px;
 }
 .decor{
@@ -151,7 +134,7 @@ select{
     width: 5.5em;
     height: 2.75em;
     margin: 0 0 4px 10px;
-    font-family: 'Gilmer';
+    font-family: 'Questrial', sans-serif;
 }
 #sort2{
     margin: 0 10px;
@@ -226,7 +209,7 @@ select{
     color: #FFFFFF;
     width: 21em;
     height: 4.5em;
-    font-family: 'Gilmer';
+    font-family: 'Questrial', sans-serif;
 }
 @media screen and (max-width: 1105px) {
     .sort_filter a > button{
