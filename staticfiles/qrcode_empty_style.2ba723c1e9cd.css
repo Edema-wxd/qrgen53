@@ -1,25 +1,25 @@
 /* import Glimer font from local file*/
 @font-face {
     font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Regular.otf") format("opentype");
+    src: url("font/Gilmer-Font/Gilmer-Regular.f779e3a49219.otf") format("opentype");
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Bold.otf") format("opentype");
+    src: url("font/Gilmer-Font/Gilmer-Bold.fc5155566791.otf") format("opentype");
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Light.otf") format("opentype");
+    src: url("font/Gilmer-Font/Gilmer-Light.47186cc9a9bf.otf") format("opentype");
     font-weight: lighter;
 }
 
 @font-face {
     font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Medium.otf") format("opentype");
+    src: url("font/Gilmer-Font/Gilmer-Medium.0335703b3f6a.otf") format("opentype");
     font-weight: 600;
 }
 
@@ -303,13 +303,13 @@ select{
 
 @font-face {
     font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Bold.otf") format("opentype");
+    src: url("font/Gilmer-Font/Gilmer-Bold.fc5155566791.otf") format("opentype");
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Light.otf") format("opentype");
+    src: url("font/Gilmer-Font/Gilmer-Light.47186cc9a9bf.otf") format("opentype");
     font-weight: lighter;
 }
 *{
