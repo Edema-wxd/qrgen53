@@ -1,21 +1,5 @@
 /* import Glimer font from local file*/
-@font-face {
-    font-family: 'Glimer';
-    src: url("../font/Gilmer-Font/Gilmer-Regular.otf") format("opentype");
-    font-weight: normal;
-}
 
-@font-face {
-    font-family: 'Glimer';
-    src: url("../font/Gilmer-Font/Gilmer-Bold.otf") format("opentype");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'Glimer';
-    src: url("../font/Gilmer-Font/Gilmer-Light.otf") format("opentype");
-    font-weight: lighter;
-}
 
 :root {
     --primary-color: #061232;
@@ -27,6 +11,7 @@
 
 html {
     font-size: 16px;
+    font-family: "Questrial", sans-serif;
 }
 
 *,*::before, *::after {
@@ -76,7 +61,6 @@ html {
 }
 
 .signin-container, .signup-container {
-    font-family: 'Glimer', sans-serif;
     width: 70vw;
     display: grid;
     grid-template-areas: "info content";
@@ -87,7 +71,6 @@ html {
 }
 
 .forgot-pw-container {
-    font-family: 'Glimer', sans-serif;
 }
 
 .forgot-pw-container > h2 {
@@ -204,7 +187,6 @@ html {
 .otp-code > input {
     font-size: 3.3rem;
     line-height: 50px;
-    font-family: 'Glimer', sans-serif;
     text-align: center;
     width: 66px;
     height: 66px;
@@ -227,7 +209,6 @@ html {
 }
 
 .signin-input::placeholder, .signup-input::placeholder, .forgot-pw-email::placeholder {
-    font-family: 'Glimer', sans-serif;
     color: var(--placeholder-color);
     font-size: 0.875rem;
 }
