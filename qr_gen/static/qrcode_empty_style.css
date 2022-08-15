@@ -3,11 +3,6 @@
     font-family: 'Glimer';
     src: url("font/Gilmer-Font/Gilmer-Regular.otf") format("opentype");
     font-weight: normal;
-}/* import Glimer font from local file*/
-@font-face {
-    font-family: 'Glimer';
-    src: url("font/Gilmer-Font/Gilmer-Regular.otf") format("opentype");
-    font-weight: normal;
 }
 
 @font-face {
@@ -21,6 +16,13 @@
     src: url("font/Gilmer-Font/Gilmer-Light.otf") format("opentype");
     font-weight: lighter;
 }
+
+@font-face {
+    font-family: 'Glimer';
+    src: url("font/Gilmer-Font/Gilmer-Medium.otf") format("opentype");
+    font-weight: 600;
+}
+
 *{
     margin: 0;
     padding: 0;
