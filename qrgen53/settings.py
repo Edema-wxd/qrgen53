@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'django-insecure-h5mjs9%0#xkb)_+m0*2x&+5n*(wl5$zqkv1c-4jio404z5h4#b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False  # TODO: change during production
+DEBUG = True  # TODO: change during production
 
 ALLOWED_HOSTS = ['miqr-zuri.herokuapp.com', '127.0.0.1']
 
@@ -78,15 +78,16 @@ WSGI_APPLICATION = 'qrgen53.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-"""
+
 # uncomment this part out during deployment
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR + '/db.sqlite3',
     }
 }
+
 """
 
 
@@ -109,7 +110,7 @@ DATABASES = {
 
     }
 }
-
+"""
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
