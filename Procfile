@@ -1,1 +1,1 @@
-web: gunicorn qrgen53.wsgi --log-file
+web: gunicorn qrgen53.wsgi 
