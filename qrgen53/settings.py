@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-h5mjs9%0#xkb)_+m0*2x&+5n*(wl5$zqkv1c-4jio404z5h4#b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True  # TODO: change during production
 
-ALLOWED_HOSTS = ['miqr-zuri.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['miqr-zuri.herokuapp.com', '127.0.0.1', '0.0.0.0']
 
 # Application definition
 
@@ -98,13 +98,13 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': 'dpdtbkk2poau6',
+        'NAME': 'd5h3ea9io34odh',
 
-        'USER': 'fsqgyftofgikfs',
+        'USER': 'idymyrldsnntgc',
 
-        'PASSWORD': '36f6369b61af75a73e4e8534ee689dbf5d40482b3f5e92d6c21e722fe4363dd2',
+        'PASSWORD': '0e849e4d08565e284784a5821d4910f63d85ea5b6fadc16b73645f687863d722',
 
-        'HOST': 'ec2-44-195-169-163.compute-1.amazonaws.com',
+        'HOST': 'ec2-3-224-184-9.compute-1.amazonaws.com',
 
         'PORT': '5432',
 
@@ -161,4 +161,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = '/'  # '/dashboard'
 LOGOUT_REDIRECT_URL = '/'
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # TODO: change to email service during production
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # TODO: change to email service during production
